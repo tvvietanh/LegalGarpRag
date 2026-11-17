@@ -1,0 +1,7 @@
+{
+  "schema_version": "rule-graph-v1",
+  "layers": ["rule"],
+  "legal_relations_require_explicit_review": true,
+  "temporal_claims_enabled": false,
+  "url_normalization": "strip_only_no_fetch"
+}

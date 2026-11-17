@@ -1,0 +1,9 @@
+# Keep canonical M1 artifact bytes intact on checkout; manifest hashes use LF.
+/outputs/rule_graph/*.json -text
+/outputs/rule_graph/*.jsonl -text
+
+# Keep M1 code/config dependency hashes stable across checkout platforms.
+/src/legal_graph/*.py text eol=lf
+/scripts/build_rule_graph.py text eol=lf
+/tests/test_rule_graph.py text eol=lf
+/configs/rule_graph_v1.json text eol=lf

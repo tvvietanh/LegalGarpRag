@@ -8,6 +8,8 @@ __pycache__/
 
 # Keep the canonical M0 inventory; retain its verification copy locally only.
 /outputs/milestone_0/inventory.rerun.json
+/outputs/milestone_1/test_tmp/
+/outputs/rule_graph_rerun/
 
 # Local credentials and machine-specific environments must not be committed.
 .env

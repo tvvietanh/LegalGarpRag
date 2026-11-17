@@ -1,0 +1,90 @@
+M1 repair attempt1 builder validation;Python 3.13.12
+Independent round1 verdict:FAIL2P1;repairs awaiting independent re-review;no commit/push.
+Before run:all219 Data files match M0 snapshot;cached baseline reused.
+> python -B -m unittest discover -s tests -v
+
+test_case_document_evidence_joins_source_without_document_id_in_span (test_inventory_graph_inputs.InventoryTests.test_case_document_evidence_joins_source_without_document_id_in_span) ... ok
+test_cli_refuses_to_write_inside_input_directory (test_inventory_graph_inputs.InventoryTests.test_cli_refuses_to_write_inside_input_directory) ... ok
+test_discover_fails_on_ambiguous_or_absent_layout (test_inventory_graph_inputs.InventoryTests.test_discover_fails_on_ambiguous_or_absent_layout) ... ok
+test_discover_nested_and_root_layouts (test_inventory_graph_inputs.InventoryTests.test_discover_nested_and_root_layouts) ... ok
+test_duplicates_count_records_and_values_separately (test_inventory_graph_inputs.InventoryTests.test_duplicates_count_records_and_values_separately) ... ok
+test_inventory_is_deterministic_and_never_changes_input (test_inventory_graph_inputs.InventoryTests.test_inventory_is_deterministic_and_never_changes_input) ... ok
+test_missing_evidence_and_unsupported_space_are_explicit (test_inventory_graph_inputs.InventoryTests.test_missing_evidence_and_unsupported_space_are_explicit) ... ok
+test_missing_required_input_fails_informatively (test_inventory_graph_inputs.InventoryTests.test_missing_required_input_fails_informatively) ... ok
+test_parse_error_reports_line_and_non_objects_rejected (test_inventory_graph_inputs.InventoryTests.test_parse_error_reports_line_and_non_objects_rejected) ... ok
+test_policy_requires_all_explicit_true_flags (test_inventory_graph_inputs.InventoryTests.test_policy_requires_all_explicit_true_flags) ... ok
+test_segment_evidence_checks_owner_bounds_and_exact_text (test_inventory_graph_inputs.InventoryTests.test_segment_evidence_checks_owner_bounds_and_exact_text) ... ok
+test_utf8_bom_blank_lines_and_missing_versus_null (test_inventory_graph_inputs.InventoryTests.test_utf8_bom_blank_lines_and_missing_versus_null) ... ok
+test_accepted_name_and_resolved_evidence_are_not_semantic_review (test_rule_graph.RuleGraphTests.test_accepted_name_and_resolved_evidence_are_not_semantic_review) ... ok
+test_baseline_structural_graph_has_required_envelopes_and_refs (test_rule_graph.RuleGraphTests.test_baseline_structural_graph_has_required_envelopes_and_refs) ... ok
+test_cli_invalid_config_cannot_disable_gates_or_touch_existing_output (test_rule_graph.RuleGraphTests.test_cli_invalid_config_cannot_disable_gates_or_touch_existing_output) ... ok
+test_cli_refuses_output_inside_data (test_rule_graph.RuleGraphTests.test_cli_refuses_output_inside_data) ... ok
+test_conflicting_duplicate_fails_closed_without_last_write (test_rule_graph.RuleGraphTests.test_conflicting_duplicate_fails_closed_without_last_write) ... ok
+test_conflicting_legacy_coordinate_aliases_are_blocked (test_rule_graph.RuleGraphTests.test_conflicting_legacy_coordinate_aliases_are_blocked) ... ok
+test_cycle_is_detected_and_never_published (test_rule_graph.RuleGraphTests.test_cycle_is_detected_and_never_published) ... ok
+test_exact_duplicate_id_fails_closed (test_rule_graph.RuleGraphTests.test_exact_duplicate_id_fails_closed) ... ok
+test_explicit_review_with_input_and_record_hash_publishes_valid_relation (test_rule_graph.RuleGraphTests.test_explicit_review_with_input_and_record_hash_publishes_valid_relation) ... ok
+test_hierarchy_denied_keeps_only_document (test_rule_graph.RuleGraphTests.test_hierarchy_denied_keeps_only_document) ... ok
+test_id_namespace_encoding_preserves_source (test_rule_graph.RuleGraphTests.test_id_namespace_encoding_preserves_source) ... ok
+test_input_order_independence_and_lf_export (test_rule_graph.RuleGraphTests.test_input_order_independence_and_lf_export) ... ok
+test_mismatch_queues_direct_record_and_blocks_child_closure (test_rule_graph.RuleGraphTests.test_mismatch_queues_direct_record_and_blocks_child_closure) ... ok
+test_missing_endpoint_citation_and_case_source_are_retained (test_rule_graph.RuleGraphTests.test_missing_endpoint_citation_and_case_source_are_retained) ... ok
+test_orphan_and_wrong_endpoint_parent_are_rejected (test_rule_graph.RuleGraphTests.test_orphan_and_wrong_endpoint_parent_are_rejected) ... ok
+test_policy_defaults_deny_and_string_true_does_not_pass (test_rule_graph.RuleGraphTests.test_policy_defaults_deny_and_string_true_does_not_pass) ... ok
+test_quarantine_overlap_never_promoted_and_duplicate_records_counted (test_rule_graph.RuleGraphTests.test_quarantine_overlap_never_promoted_and_duplicate_records_counted) ... ok
+test_raw_endpoint_collision_across_types_fails (test_rule_graph.RuleGraphTests.test_raw_endpoint_collision_across_types_fails) ... ok
+test_review_does_not_override_endpoint_or_evidence_gate (test_rule_graph.RuleGraphTests.test_review_does_not_override_endpoint_or_evidence_gate) ... ok
+test_review_requires_explicit_dependency_snapshots (test_rule_graph.RuleGraphTests.test_review_requires_explicit_dependency_snapshots) ... ok
+test_segment_and_document_coordinates_must_both_match_provision (test_rule_graph.RuleGraphTests.test_segment_and_document_coordinates_must_both_match_provision) ... ok
+test_self_loop_blocks_parent_and_child (test_rule_graph.RuleGraphTests.test_self_loop_blocks_parent_and_child) ... ok
+test_source_and_context_changes_same_ids_invalidate_review (test_rule_graph.RuleGraphTests.test_source_and_context_changes_same_ids_invalidate_review) ... ok
+test_span_bounds_owner_and_provenance_disagreement (test_rule_graph.RuleGraphTests.test_span_bounds_owner_and_provenance_disagreement) ... ok
+test_stale_or_boolean_coerced_review_never_publishes (test_rule_graph.RuleGraphTests.test_stale_or_boolean_coerced_review_never_publishes) ... ok
+test_target_content_change_same_id_invalidates_original_review (test_rule_graph.RuleGraphTests.test_target_content_change_same_id_invalidates_original_review) ... ok
+test_temporal_source_flags_are_preserved_without_verified_applicability (test_rule_graph.RuleGraphTests.test_temporal_source_flags_are_preserved_without_verified_applicability) ... ok
+test_unrelated_version_raw_collision_fails (test_rule_graph.RuleGraphTests.test_unrelated_version_raw_collision_fails) ... ok
+test_unverified_document_coordinates_cannot_support_legal_relation (test_rule_graph.RuleGraphTests.test_unverified_document_coordinates_cannot_support_legal_relation) ... ok
+test_url_original_preserved_and_no_fetch_claim (test_rule_graph.RuleGraphTests.test_url_original_preserved_and_no_fetch_claim) ... ok
+test_valid_article_clause_point_with_child_before_parent (test_rule_graph.RuleGraphTests.test_valid_article_clause_point_with_child_before_parent) ... ok
+test_validator_checks_property_references_and_typed_edges (test_rule_graph.RuleGraphTests.test_validator_checks_property_references_and_typed_edges) ... ok
+test_version_identity_document_join_conflict_blocks_closure (test_rule_graph.RuleGraphTests.test_version_identity_document_join_conflict_blocks_closure) ... ok
+test_wrong_level_and_cross_document_parent_are_detected (test_rule_graph.RuleGraphTests.test_wrong_level_and_cross_document_parent_are_detected) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.761s
+
+OK
+EXIT_CODE=0
+> python -B scripts/build_rule_graph.py --root . --output outputs/rule_graph
+Rule Graph PASS: nodes=10604, edges=11802, build_id=build:f71786db649ab02db090e6623d8aee314169bbc4eb62204125c464ee3961ac1a
+Review queue=111; legal relations published=0; URLs not fetched.
+
+EXIT_CODE=0
+> python -B scripts/build_rule_graph.py --root . --output outputs/rule_graph_rerun
+Rule Graph PASS: nodes=10604, edges=11802, build_id=build:f71786db649ab02db090e6623d8aee314169bbc4eb62204125c464ee3961ac1a
+Review queue=111; legal relations published=0; URLs not fetched.
+
+EXIT_CODE=0
+> git diff --exit-code -- Data
+
+
+EXIT_CODE=0
+> git diff --check
+
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+EXIT_CODE=0
+candidates.jsonl bytes=4492197 SHA256=6f8191b55452bba916987081b7de3424a4c6434351b3fe4a8a3d36168f0338e8 rerun_equal=True CRLF=0
+edges.jsonl bytes=38922792 SHA256=658e7e1a7a90af47339ececfbb768fea1ac14e55adfc979fc532f076d7e826be rerun_equal=True CRLF=0
+manifest.json bytes=6624 SHA256=f277864cfe7e3304449a221192bdbfe380319b208dbcb8be9297063e7fec3fe0 rerun_equal=True CRLF=0
+nodes.jsonl bytes=36383267 SHA256=5e1a16e8e24b06010765f5536a9d78f94d8291903731670fc49f71c8709484eb rerun_equal=True CRLF=0
+provision_review_queue.jsonl bytes=301156 SHA256=aaa8c83885880e8971eb9cefe0242138d90b31b234d225505ab3464c601ef98e rerun_equal=True CRLF=0
+quality_report.json bytes=4154 SHA256=93d96ee57c3e4f1240eddeba345d1c02839f2071e53821e99ca7438bb05566bc rerun_equal=True CRLF=0
+rejects.jsonl bytes=27346822 SHA256=0c81bc0b251643f558ea5afb8f59d2835ceb23bd2c8e07723de8f9de9d5cac8c rerun_equal=True CRLF=0
+After run:all219 Data files match M0 snapshot;218tracked sources unchanged.
+Dataset digest=30ebe107f6a48803e32769f788f1982662d8000e55a343fe01dd768e0db8a79e
+Build ID=build:f71786db649ab02db090e6623d8aee314169bbc4eb62204125c464ee3961ac1a
+Counts={"candidate_records": 3364, "edge_types": {"CONTAINS": 3934, "HAS_IDENTITY": 3934, "HAS_VERSION": 3934}, "edges": 11802, "edges_by_layer": {"rule": 11802}, "node_types": {"Document": 39, "Provision": 3934, "ProvisionIdentity": 2697, "ProvisionVersion": 3934}, "nodes": 10604, "nodes_by_layer": {"rule": 10604}, "rejected_or_excluded_records": 46853, "review_queue_records": 111}
+46/46tests OK;all7 artifacts byte-identical,LF,manifest hashes verified.
+P1-01:endpoint/context snapshots required;target/source/context changes with stable IDs stale original review.
+P1-02:all supplied coordinate spaces and aliases checked;unverified source bounds cannot authorize legal evidence.
+Independent re-review:PENDING;runtime validation is not reviewer approval.
