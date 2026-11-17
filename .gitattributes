@@ -13,3 +13,7 @@
 /outputs/ontology_graph/*.json -text
 /outputs/ontology_graph/*.jsonl -text
 /docs/milestone_2/REVIEW.md text eol=lf
+/scripts/build_fact_graph.py text eol=lf
+/tests/test_fact_graph.py text eol=lf
+/outputs/fact_graph/*.json -text
+/outputs/fact_graph/*.jsonl -text
