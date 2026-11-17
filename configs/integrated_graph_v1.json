@@ -1,0 +1,8 @@
+{
+  "schema_version": "integrated-graph-v1",
+  "upstream_manifest_sha256": {
+    "fact": "2ee5da45303e76f2ad8b0f662378f02d92695310e2ecd5acd12eae3d46628ede",
+    "ontology": "720bebe125822ca7bcbef8f1cd127068e3041ed19f1fb81b876ce44d9d9946db",
+    "rule": "f277864cfe7e3304449a221192bdbfe380319b208dbcb8be9297063e7fec3fe0"
+  }
+}

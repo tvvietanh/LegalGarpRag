@@ -7,9 +7,9 @@ Checkpoint: `feature/hier-graph`; tiếp tục tự động theo master #1 và c
 | M0 Inventory/schema | PASS_WITH_WARNINGS; đã push c4abb8c; hai P2 runtime được xử lý trong M1 |
 | M1 Rule Graph — Issue #2 | PASS re-review repair attempt1;46tests OK; đã push ac262a3 |
 | M2 Ontology | PASS cuối approved export;27nodes/12edges; đã push9a6e6a2 |
-| M3 Fact |PASS_WITH_SOURCE_LIMITATIONS;24Case/0edges/36queue,68tests OK; chuẩn bị push; fact extraction pending |
-| M4 Integration |Mốc kế tiếp tự động; union approved bundles, không tạo liên kết thiếu evidence |
-| M5 Final/export/URL audit | Chưa bắt đầu; VERIFIED identity hoặc honest UNRESOLVED/BLOCKED |
+| M3 Fact |PASS_WITH_SOURCE_LIMITATIONS;24Case/0edges/36queue,68tests OK; đã push17877c4; fact extraction pending |
+| M4 Integration |PASS_WITH_SOURCE_LIMITATIONS;10.655nodes/11.814edges,10definitiongroundings/0Caselinks;77tests OK; chuẩn bị push |
+| M5 Final/export/URL audit |Mốc tiếp theo tự động; cached bounded audit, VERIFIED identity hoặc honest UNRESOLVED/BLOCKED |
 
 M1 có10.604nodes/11.802edges;111mismatch queue,22closure excluded;0legal relations/verified applicability. Review PASS tại `docs/milestone_1/REVIEW.md`. Đã comment [Issue2](https://github.com/tvvietanh/LegalGarpRag/issues/2#issuecomment-6944559409). M2 catalog `ontology/curated_concepts_v1.json` có10statutory definitions,2IS_A và10groundings;17issues chỉ vocabulary,7.859keywords candidate. Draft semantic UNVERIFIED tới khi graph_reviewer approve exact catalog hash/IDs; kiểm thử/logs và workflow approval tại `docs/milestone_2/REPORT.md`.
 

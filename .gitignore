@@ -13,6 +13,7 @@ __pycache__/
 /outputs/milestone_2/test_tmp/
 /outputs/ontology_graph_rerun/
 /outputs/fact_graph_rerun/
+/outputs/integrated_graph_rerun/
 
 # Local credentials and machine-specific environments must not be committed.
 .env

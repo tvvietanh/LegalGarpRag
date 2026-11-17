@@ -17,3 +17,9 @@
 /tests/test_fact_graph.py text eol=lf
 /outputs/fact_graph/*.json -text
 /outputs/fact_graph/*.jsonl -text
+/scripts/build_integrated_graph.py text eol=lf
+/scripts/query_integrated_graph.py text eol=lf
+/tests/test_integration.py text eol=lf
+/configs/integrated_graph_v1.json text eol=lf
+/outputs/integrated_graph/*.json -text
+/outputs/integrated_graph/*.jsonl -text
