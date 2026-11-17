@@ -1,0 +1,30 @@
+M5 draft final validation;independent final review PENDING.
+QA86tests and full219Data hashes:see frozen audit/final_qa_v1.json and TEST_LOG.txt.
+candidates.jsonl bytes=13644198 SHA256=ce3a299c3cf612de7de345586195927fb1465b62d4a8e698cb8cd22a14a735e0 rerun_equal=True LF=True
+coverage_report.json bytes=677 SHA256=1cf855cbe340956220d2f722b8a59c9436bc374b6bd052caadf58a9ea3444795 rerun_equal=True LF=True
+edges.jsonl bytes=38979760 SHA256=c3030ea9612ab8757c26730e34c269e977aca2f627e270f831f0d950e0d8e1da rerun_equal=True LF=True
+manifest.json bytes=7614 SHA256=1df27d77d87b4207fadb0a5dfe58b891f735945a1c46ef82715c93f8281ce8a5 rerun_equal=True LF=True
+nodes.jsonl bytes=36696028 SHA256=91acf848848f1b3bea210e3e28cd9c5785c7f472871e6ef531602181e660600e rerun_equal=True LF=True
+provenance.jsonl bytes=45230786 SHA256=4920e22f016e07f91cae446048c8c34d22b63e2babe4bb8bcc4693edcf8face8 rerun_equal=True LF=True
+quality_report.json bytes=2654 SHA256=1e217b9ca38fff17269c9e6cc1c4d85eaa609ef215320f1c3844ee2c38d6a6d9 rerun_equal=True LF=True
+rejects.jsonl bytes=28666113 SHA256=1fb3fbf7322244d11b011fc0c13183e00186a749b953558d70ab047c0d8419f8 rerun_equal=True LF=True
+review_queue.jsonl bytes=339652 SHA256=61714c8af30471f6f079d1aa1a219c134c289c0dc44035e4ee5fcf551bc25dc7 rerun_equal=True LF=True
+traversal_examples.json bytes=2274 SHA256=3b995f33e8a6413399e6ab4b9a42f4e94672a882ba5e971a52869055129552aa rerun_equal=True LF=True
+url_audit.jsonl bytes=257890 SHA256=900bebccad82b1ba178c593da9bf79e12e22091761f65569298ee5b65a08f39b rerun_equal=True LF=True
+> git diff --exit-code -- Data src/legal_graph/rule_graph.py src/legal_graph/ontology_graph.py src/legal_graph/fact_graph.py src/legal_graph/integration.py outputs/rule_graph outputs/ontology_graph outputs/fact_graph outputs/integrated_graph ontology
+EXIT_CODE=0
+
+
+> git diff --check
+EXIT_CODE=0
+
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/PROGRESS.md', LF will be replaced by CRLF the next time Git touches it
+
+Final graph nodes/edges byte-identical to reviewed M4.
+Counts={"candidate_source_records": 11223, "duplicate_candidate_copies_removed": 0, "duplicate_queue_copies_removed": 0, "duplicate_reject_copies_removed": 0, "edge_types": {"CONTAINS": 3934, "HAS_IDENTITY": 3934, "HAS_VERSION": 3934, "IS_A": 2, "REGULATED_BY": 10}, "edges": 11814, "edges_by_layer": {"cross": 10, "ontology": 2, "rule": 11802}, "node_types": {"Case": 24, "Document": 39, "LegalConcept": 10, "LegalIssue": 17, "Provision": 3934, "ProvisionIdentity": 2697, "ProvisionVersion": 3934}, "nodes": 10655, "nodes_by_layer": {"fact": 24, "ontology": 27, "rule": 10604}, "queue_is_overlay_not_additional_exclusion": true, "reject_or_excluded_source_records": 46865, "review_queue_records": 147, "reviewed_case_graph_links": 0, "verified_definition_groundings": 10}
+URLstatuses={"UNRESOLVED": 36, "VERIFIED": 3}
+Build ID=build:0ab9816f89145c3ca18d55dbaa34fa7f1fd9454616bc9f09a499ae474564a25b
+Source snapshot219files unchanged;M0?M4 code/catalog/artifact inputs unchanged.
+Finalstatus:PENDING_INDEPENDENT_REVIEW;pipeline reports PASS_WITH_LIMITATIONS,not full semantic/URL acceptance.

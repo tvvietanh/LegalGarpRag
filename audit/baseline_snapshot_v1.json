@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/XMUDeepLIT/LegalGraphRAG",
+  "commit": "dbe625f2c0cc3d71abc66fd2171ef6b92c087ead",
+  "observed_by": "parent read-only GitHub API and pinned raw-source checks; independent final review requested",
+  "scope": "Research baseline only; no source code port or criminal-law taxonomy copied",
+  "historical_m0_byte_equivalence": "UNKNOWN; historical main raw snapshot was not saved",
+  "files": [
+    {"path":"core/graph_construct/feature_graph.py","bytes":5856,"sha256":"afc8fcb893fa3a5854f4633fcca649bcbd070b8e3b3145b2db5b77b0049b24b9"},
+    {"path":"core/graph_construct/graph_db.py","bytes":10039,"sha256":"d655a48d97cbfa26b4c6e1bff2a209bb61949ede1a039c83f59a3740eda0fae2"},
+    {"path":"core/graph_construct/fact_graph.py","bytes":9132,"sha256":"5ca3fc297d4da862e8e4187d110dc4592ce12f6621a8541e91c43bfa4d23c4b4"},
+    {"path":"core/graph_construct/ontology_graph.py","bytes":12196,"sha256":"3e64498206a135a84f61360441dcea4ed897903fa6dbfdbdb8f6d7e3151a9da5"},
+    {"path":"core/graph_construct/rule_graph.py","bytes":1171,"sha256":"ffbe2873c5e58dc1ae3451c03d7b9d290781a2119812cb81b2af2d68c7c53134"}
+  ],
+  "pinned_url_pattern": "https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/<path>"
+}

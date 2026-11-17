@@ -1,0 +1,61 @@
+{
+  "approvals": [
+    {
+      "decision": "APPROVED",
+      "document_node_id": "rule:document:doc_32bb226053f3fd6c",
+      "document_node_sha256": "de35edf671f3c592f1c2abd3b40307c4aeeb269bbd91ccd88a609d239e4d1796",
+      "evidence_quote": "Số: 09/2026/TT-BNV",
+      "expected_number": "09/2026/TT-BNV",
+      "observation_record_sha256": "402e63d05cb61f3500139a3deb77cf0cd7e13b6275e9f1e2799c62cf92d999ba",
+      "response_sha256": "a432cb3add48d3461caf3247f2086f0ae43c101e4f8dd8520ccb9cc136358411",
+      "reviewed_authority": "Bộ Nội vụ",
+      "reviewed_title_alias": "Sửa đổi, bổ sung một số điều của Thông tư số 21/2021/TT-BLĐTBXH ngày 15 tháng 12 năm 2021 của Bộ trưởng Bộ Lao động – Thương binh và Xã hội quy định chi tiết một số điều của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng"
+    },
+    {
+      "decision": "APPROVED",
+      "document_node_id": "rule:document:doc_42cd56772f3e0b93",
+      "document_node_sha256": "a0ba773dcbe523b44dbaa546cc58c308af17f78ad4efe02112ee895219ba1692",
+      "evidence_quote": "Số: 10/2020/TT-BLĐTBXH",
+      "expected_number": "10/2020/TT-BLĐTBXH",
+      "observation_record_sha256": "ddb13fc59cf79139b2536db1bf72a2dfdeb50597c8e18ec2d5b70a0fdc33daae",
+      "response_sha256": "b2b7e891bec31090825b93cd4e3d582cb4c779d34aca5e32e5234d9023efc853",
+      "reviewed_authority": "Bộ Lao động - Thương binh và Xã hội",
+      "reviewed_title_alias": "Quy định chi tiết và hướng dẫn thi hành một số điều của Bộ luật Lao động về nội dung của hợp đồng lao động, Hội đồng thương lượng tập thể và nghề, công việc có ảnh hưởng xấu tới chức năng sinh sản, nuôi con"
+    },
+    {
+      "decision": "APPROVED",
+      "document_node_id": "rule:document:doc_88c028fd122cc91f",
+      "document_node_sha256": "e70265fb378605114aed1232ef68971d95a80ad5e7ae86ad28c2ce30682f5728",
+      "evidence_quote": "Số: 08/2026/TT-BNV",
+      "expected_number": "08/2026/TT-BNV",
+      "observation_record_sha256": "cb57f9e80a556fc0f64473985da4b917200168caf35993313260713ccdfb1f49",
+      "response_sha256": "679d32cf5ed9c3fdaae14b6428a054b62fee7af0a51404126b3214a60fe715a7",
+      "reviewed_authority": "Bộ Nội vụ",
+      "reviewed_title_alias": "Quy định chi tiết và hướng dẫn thi hành một số điều của Nghị định số 337/2025/NĐ-CP ngày 24 tháng 12 năm 2025 của Chính phủ quy định về hợp đồng lao động điện tử"
+    },
+    {
+      "decision": "APPROVED",
+      "document_node_id": "rule:document:doc_ba532d4bf6c52138",
+      "document_node_sha256": "63a047e8013c2ca617fb0e8374d97803650800bcdcbcf45a9f301f47cefad035",
+      "expected_number": "124/2025/QH15",
+      "local_pdf_sha256": "4d5837340a71715a8b9c474632a4ea060cb4ddca69b9919b875db652762f1127",
+      "observation_record_sha256": "8d4bf1a0115743bf080efcea1181b9075436335ec94e84a56a83b62cedad22b1",
+      "pdf_page_number": 1,
+      "proof_kind": "PDF_PAGE_VISUAL_IDENTITY",
+      "render_scale": 1.5,
+      "rendered_page_path": "audit/evidence/doc_ba532d4bf6c52138_page1.png",
+      "rendered_page_sha256": "7ce7bc489f238a7aa6a553affd3e93fa72dbf2f65327cc3855962a4ec49b234c",
+      "renderer": "pypdfium2 5.15.2",
+      "response_sha256": "4d5837340a71715a8b9c474632a4ea060cb4ddca69b9919b875db652762f1127",
+      "reviewed_authority": "QUỐC HỘI",
+      "reviewed_title_alias": "LUẬT GIÁO DỤC NGHỀ NGHIỆP",
+      "transcript": "QUỐC HỘI\nLuật số: 124/2025/QH15\nLUẬT\nGIÁO DỤC NGHỀ NGHIỆP"
+    }
+  ],
+  "independent_review": true,
+  "observation_snapshot_sha256": "69c9a8750bfb529186a4ea93cc481848a1fbdf135f997c0391b9ad09d171144e",
+  "review_report_sha256": "3f771fe34af0fd3d86278aadd4b343eb5890c62d45c826f77d94e8fd4b6e9af6",
+  "reviewer": "/root/graph_reviewer",
+  "reviewer_role": "graph_reviewer",
+  "schema_version": "url-identity-review-v1"
+}

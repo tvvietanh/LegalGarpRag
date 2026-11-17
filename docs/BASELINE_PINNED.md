@@ -1,0 +1,7 @@
+# Baseline XMU được pin cho final handoff
+
+Parent đã kiểm tra read-only GitHub API/main và5raw files tại commit **dbe625f2c0cc3d71abc66fd2171ef6b92c087ead**. Byte counts và SHA-256 được đóng băng tại `audit/baseline_snapshot_v1.json`; final reviewer kiểm tra độc lập metadata này. Không khẳng định byte-identical với main snapshot M0 vì snapshot cũ không được lưu. Không sửa lịch sử M0.
+
+Nguồn chính xác: [feature_graph.py](https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/core/graph_construct/feature_graph.py), [graph_db.py](https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/core/graph_construct/graph_db.py), [fact_graph.py](https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/core/graph_construct/fact_graph.py), [ontology_graph.py](https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/core/graph_construct/ontology_graph.py), [rule_graph.py](https://raw.githubusercontent.com/XMUDeepLIT/LegalGraphRAG/dbe625f2c0cc3d71abc66fd2171ef6b92c087ead/core/graph_construct/rule_graph.py).
+
+Dự án Việt Nam chỉ dùng ý tưởng graph chung/liên kết tầng làm baseline nghiên cứu. Runtime được viết riêng cho policy/provenance/temporal và ontology curated từ nguồn Việt Nam; không port embedding/retrieval/model/Crimes/Cluster hoặc tự suy thuật ngữ lao động từ lớp tội danh.

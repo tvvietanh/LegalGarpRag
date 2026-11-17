@@ -23,3 +23,20 @@
 /configs/integrated_graph_v1.json text eol=lf
 /outputs/integrated_graph/*.json -text
 /outputs/integrated_graph/*.jsonl -text
+/scripts/collect_url_audit.py text eol=lf
+/scripts/build_final_graph.py text eol=lf
+/tests/test_final_release.py text eol=lf
+/configs/final_graph_v1.json text eol=lf
+/audit/*.jsonl -text
+/outputs/final/*.json -text
+/outputs/final/*.jsonl -text
+/audit/*.json text eol=lf
+/docs/milestone_5/TEST_LOG.txt text eol=lf
+/docs/milestone_5/URL_IDENTITY_REVIEW.md text eol=lf
+/docs/milestone_5/REVIEW_DRAFT.md text eol=lf
+/audit/evidence/*.png -text
+/docs/milestone_0/REVIEW.md text eol=lf
+/docs/milestone_1/REVIEW.md text eol=lf
+/docs/milestone_2/FINAL_REVIEW.md text eol=lf
+/docs/milestone_3/REVIEW.md text eol=lf
+/docs/milestone_4/REVIEW.md text eol=lf
