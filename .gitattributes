@@ -7,3 +7,9 @@
 /scripts/build_rule_graph.py text eol=lf
 /tests/test_rule_graph.py text eol=lf
 /configs/rule_graph_v1.json text eol=lf
+/scripts/build_ontology_graph.py text eol=lf
+/tests/test_ontology_graph.py text eol=lf
+/ontology/*.json text eol=lf
+/outputs/ontology_graph/*.json -text
+/outputs/ontology_graph/*.jsonl -text
+/docs/milestone_2/REVIEW.md text eol=lf

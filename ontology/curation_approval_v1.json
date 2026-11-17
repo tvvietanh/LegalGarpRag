@@ -1,0 +1,36 @@
+{
+  "catalog_sha256": "696a2a3df89fd2e7c368d2def4730a8e8c28c7a57a2a6518cead4199a929a4b0",
+  "concept_ids": [
+    "ontology:concept:employee",
+    "ontology:concept:employer",
+    "ontology:concept:employment_discrimination",
+    "ontology:concept:employment_relationship",
+    "ontology:concept:fixed_term_labor_contract",
+    "ontology:concept:forced_labor",
+    "ontology:concept:indefinite_term_labor_contract",
+    "ontology:concept:labor_contract",
+    "ontology:concept:workplace_employee_representative_organization",
+    "ontology:concept:workplace_sexual_harassment"
+  ],
+  "decision": "APPROVED",
+  "edge_ids": [
+    "edge:17de3e01d139a22198dae2a5b8dbf5da6fdb48664b0ebbfacc9fb0777ad3ad1b",
+    "edge:21c233c690374e0f82997f311a49fe2bb4edf1a3bd8550abcadf0aa87b02f842",
+    "edge:7095573139205852ed90145d204205561c16641d42930d100bbbde711167c445",
+    "edge:988396afead8ed4f2714cf76b799ba4a7a8434c954b6af400ab5de1165d600bf",
+    "edge:9b36c6ec25ce2a80b490b39dfa107174a58498d258453806cdb2464942ecc932",
+    "edge:9dbeb2df932023e6922bb7bc3e2e316c11626149402af92dfbe7034e9df21269",
+    "edge:a0a792fcba60d3c87ddfe612da18a6059e86eaa05e3385f979b533a19bd2f50a",
+    "edge:cbabf6d1dd47725fcc352aaf483ca986c689989f808ce6fa6f1dad5a13f63821",
+    "edge:d79552c94e545db710eb8063e87e00742b0ed4d38919688340784ff379fd2a36",
+    "edge:d87065626adea9485c50cc33f3d679b8edb4934cac396050e3424eba07d3bfcf",
+    "edge:f7bdb6ee73c01ccc7e670367afb2f63869bb74f9cee3a161d680d87703a40f4a",
+    "edge:fd1e31768dc81386f12657d6cdd05e765b166c2899b92393ab72efdb9203e523"
+  ],
+  "independent_review": true,
+  "review_report_sha256": "812dddc820e0efe4c515aab4384294c44bc45be0552f7adb7c399467f2a994a9",
+  "reviewer": "/root/graph_reviewer",
+  "reviewer_role": "graph_reviewer",
+  "rule_manifest_sha256": "f277864cfe7e3304449a221192bdbfe380319b208dbcb8be9297063e7fec3fe0",
+  "schema_version": "ontology-review-v1"
+}

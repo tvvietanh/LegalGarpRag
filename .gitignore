@@ -10,6 +10,8 @@ __pycache__/
 /outputs/milestone_0/inventory.rerun.json
 /outputs/milestone_1/test_tmp/
 /outputs/rule_graph_rerun/
+/outputs/milestone_2/test_tmp/
+/outputs/ontology_graph_rerun/
 
 # Local credentials and machine-specific environments must not be committed.
 .env
