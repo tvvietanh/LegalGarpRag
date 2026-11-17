@@ -1,0 +1,42 @@
+name: Graph automation preflight (manual only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: graph-preflight-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout without persisted credentials
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Validate existing offline graph-agent configuration
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import tomllib
+          paths = [
+              Path(".codex/config.toml"),
+              Path(".codex/agents/graph_builder.toml"),
+              Path(".codex/agents/graph_reviewer.toml"),
+          ]
+          for path in paths:
+              if not path.is_file():
+                  raise SystemExit(f"Missing: {path}")
+              with path.open("rb") as f:
+                  tomllib.load(f)
+          assert Path("docs/GRAPH_CONTRACT.md").is_file()
+          print("Configuration exists and TOML syntax is valid")
+          PY
+      - name: Run Milestone 0 tests
+        run: python -B -m unittest discover -s tests -v
