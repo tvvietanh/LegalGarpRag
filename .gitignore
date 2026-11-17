@@ -1,0 +1,16 @@
+# Original local archive; extracted source data is already tracked and immutable.
+/Data/01_raw_data.zip
+
+# Python generated files and local test fixtures.
+__pycache__/
+*.py[cod]
+/outputs/milestone_0/test_tmp/
+
+# Keep the canonical M0 inventory; retain its verification copy locally only.
+/outputs/milestone_0/inventory.rerun.json
+
+# Local credentials and machine-specific environments must not be committed.
+.env
+.env.*
+!.env.example
+.venv/

@@ -1,0 +1,4 @@
+# Codex project-level multi-agent configuration.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

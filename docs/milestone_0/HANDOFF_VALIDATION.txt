@@ -1,0 +1,50 @@
+Milestone 0 GitHub handoff validation; Python 3.13.12
+Scope: prepare branch/staging only; no commit/push; source/tests/schema unchanged.
+Runtime dependencies: Python standard library; no network in tests/inventory.
+> python -B -m unittest discover -s tests -v
+
+test_case_document_evidence_joins_source_without_document_id_in_span (test_inventory_graph_inputs.InventoryTests.test_case_document_evidence_joins_source_without_document_id_in_span) ... ok
+test_cli_refuses_to_write_inside_input_directory (test_inventory_graph_inputs.InventoryTests.test_cli_refuses_to_write_inside_input_directory) ... ok
+test_discover_fails_on_ambiguous_or_absent_layout (test_inventory_graph_inputs.InventoryTests.test_discover_fails_on_ambiguous_or_absent_layout) ... ok
+test_discover_nested_and_root_layouts (test_inventory_graph_inputs.InventoryTests.test_discover_nested_and_root_layouts) ... ok
+test_duplicates_count_records_and_values_separately (test_inventory_graph_inputs.InventoryTests.test_duplicates_count_records_and_values_separately) ... ok
+test_inventory_is_deterministic_and_never_changes_input (test_inventory_graph_inputs.InventoryTests.test_inventory_is_deterministic_and_never_changes_input) ... ok
+test_missing_evidence_and_unsupported_space_are_explicit (test_inventory_graph_inputs.InventoryTests.test_missing_evidence_and_unsupported_space_are_explicit) ... ok
+test_missing_required_input_fails_informatively (test_inventory_graph_inputs.InventoryTests.test_missing_required_input_fails_informatively) ... ok
+test_parse_error_reports_line_and_non_objects_rejected (test_inventory_graph_inputs.InventoryTests.test_parse_error_reports_line_and_non_objects_rejected) ... ok
+test_policy_requires_all_explicit_true_flags (test_inventory_graph_inputs.InventoryTests.test_policy_requires_all_explicit_true_flags) ... ok
+test_segment_evidence_checks_owner_bounds_and_exact_text (test_inventory_graph_inputs.InventoryTests.test_segment_evidence_checks_owner_bounds_and_exact_text) ... ok
+test_utf8_bom_blank_lines_and_missing_versus_null (test_inventory_graph_inputs.InventoryTests.test_utf8_bom_blank_lines_and_missing_versus_null) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.156s
+
+OK
+EXIT_CODE=0
+> python -B scripts/inventory_graph_inputs.py --root . --output outputs/milestone_0/inventory.rerun.json --compare outputs/milestone_0/inventory.json
+Inventory OK: 219 files; digest=30ebe107f6a48803e32769f788f1982662d8000e55a343fe01dd768e0db8a79e
+Policy screen: 39 documents, 4067 provisions, 24 cases
+
+EXIT_CODE=0
+> git diff --exit-code -- Data
+
+
+EXIT_CODE=0
+> git diff --cached --exit-code -- Data
+
+
+EXIT_CODE=0
+> git branch --show-current
+feature/hier-graph
+
+EXIT_CODE=0
+> git rev-parse HEAD
+019949659cd6f5d4bfdd2608b3506e9282a9b390
+
+EXIT_CODE=0
+Inventory byte comparison: PASS
+Canonical inventory SHA256=92a8d824401336c831ca417e4b43a2c0bec2fab8ae620a4d2a1b29794a7bd893
+Input dataset digest=30ebe107f6a48803e32769f788f1982662d8000e55a343fe01dd768e0db8a79e
+Tracked Data files verified against snapshot: 218
+Independent M0 verdict: PASS_WITH_WARNINGS; two P2 remain unchanged.
+Commit/push: not performed; pending independent handoff review.
